@@ -4,6 +4,7 @@ RUN apt-get update; apt-get install pip graphviz -y
 RUN pip install jupyter jupyterhub
 RUN pip install networkx
 RUN pip install graphillion graphviz
+RUN pip install japanize-matplotlib
 
 
 
